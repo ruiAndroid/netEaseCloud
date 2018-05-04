@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="indexMenu">
+  <scroll-view class="indexMenuTop" scroll-x="true" scroll-y="false">
+    <view catchtap="toNew" class="top-btn {{new}}">上新</view>
+    <view catchtap="toGood" class="top-btn {{good}}">好货</view>
+    <view catchtap="toChild" class="top-btn {{child}}">童装</view>
+    <view catchtap="toMom" class="top-btn {{mom}}">母婴</view>
+    <view catchtap="toGirl" class="top-btn {{girl}}">女装</view>
+    <view catchtap="toFood" class="top-btn {{food}}">食品</view>
+    <view catchtap="toBeauti" class="top-btn {{beauti}}">丽人</view>
+    <view catchtap="toHome" class="top-btn {{home}}">居家</view>
+  </scroll-view>
+</view>
+<view class="indexContent">
+
+  <view class="first">
+    <image class="firstImg" src="http://b2.hucdn.com//upload/hmp/1609/29/79597670154837_750x300.jpg" mode="scaleToFill"></image>
+  </view>
+
+  <view class="secondContent">
+    <view class="second">
+      <view class="secondDiv">
+        <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1609/14/23080112334484_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+        <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1608/30/26071831380311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+        <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1609/20/74848780300311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+      <view class="secondDiv">
+        <image class="secondImg1" src="http://b2.hucdn.com//upload/hmp/1608/30/26177615590311_120x80.png!100q50.webp" mode="scaleToFill"></image>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="third">
+    <image class="thirdLeftContent" src="http://h0.hucdn.com/images/201639/8a92f3b3c7f9d255_132x122.png">
+    </image>
+    <view class="thirdRightContent">
+      <text class="thirdRightContentTxt">儿童身高，体重发育标准</text>
+      <text class="thirdRightContentTxt">一件衣服值不值得买，重要看这五点</text>
+    </view>
+  </view>
+
+  <view class="forth">
+    <text class="todayHot">今日特卖</text>
+  </view>
+
+  <view class="fifth">
+    <image class="fifthImg" mode="scaleToFill" src="http://b1.hucdn.com/upload/show/1609/22/07024560401727_750x350.jpg!750q50.webp">
+    </image>
+  </view>
+<view class="fifth">
+    <image class="fifthImg" mode="scaleToFill" src="http://b1.hucdn.com/upload/show/1609/22/07024560401727_750x350.jpg!750q50.webp">
+    </image>
+  </view>
+  <view class="fifth">
+    <image class="fifthImg" mode="scaleToFill" src="http://b1.hucdn.com/upload/show/1609/22/07024560401727_750x350.jpg!750q50.webp">
+    </image>
+  </view>
+</view>

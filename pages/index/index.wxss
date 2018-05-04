@@ -1,0 +1,138 @@
+/*首页最外层布局css*/
+
+/*首页顶部的菜单样式*/
+/*z-index只能在position属性值为relative或absolute或fixed的元素上有效*/
+/*z-index可以控制定位元素在垂直于显示屏幕方向(z轴)上的堆叠顺序(stack order),值大的元素发生重叠时会在值小的元素上面*/
+.indexMenu{
+  
+  width: 100%;
+  height: 50px;
+  background-color: #fff;  
+  border-bottom:#eee solid 1px;
+}
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.indexMenuTop{
+  white-space: nowrap;
+  width: 95%;
+  margin: 0 auto; 
+}
+
+.top-btn{
+  display: inline-block;
+  padding: 22rpx;
+  font-size: 16px;
+}
+
+.top-hoverd-btn{
+   color: #42bd56;
+   border-bottom: #42bd56 solid 1px;
+}
+.indexContent{
+  width: 100%;
+  
+  
+}
+
+.first{
+  padding: 5rpx;
+  border: #eee solid 1px;
+}
+.firstImg{
+  width: 100%;
+}
+.secondContent{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 180rpx;
+  justify-content: center;
+
+}
+.second{
+  
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  height: 180rpx;
+  border: #eee solid 1px;
+  justify-content: space-around;
+  padding: 3rpx;
+}
+.secondDiv{
+
+  padding: 2rpx;
+  border: #eee solid 1px;
+  width:25%;
+  height: 170rpx;
+  display: flex;
+  justify-content: center;
+  
+}
+.secondImg1{
+  width:100%;
+  height: 170rpx;
+}
+
+.third{
+  width: 100%;
+  height: 150rpx;
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.thirdLeftContent{
+  width: 25%;
+  height: 150rpx;
+
+}
+
+.thirdRightContent{
+  width: 75%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+}
+
+.thirdRightContentTxt{
+  font-size: 14px;
+  margin-left: 30rpx;
+}
+
+.forth{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+  margin-top: 20rpx;
+}
+.todayHot{
+  font-size: 18px;
+  width: 100%;
+  height: 50rpx;
+  text-align: center;
+  
+}
+
+.fifth{
+  display: flex;
+  margin: 5rpx;
+  border: #ddd solid 1px;
+  padding: 5rpx;
+
+}
+
+.fifthImg{
+   width: 750rpx;
+
+}
